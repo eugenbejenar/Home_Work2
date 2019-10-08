@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.cont {
+    margin-bottom: 30px;
+}
+
+.rectangle {
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    content: 10px;
+    border: 2px solid;
+}
+
+.block {
+    width: 150px;
+    background-color: rgba(14, 136, 136, 0.801);
+    border-color: rgba(52, 63, 226, 0.76);
+}
+
+.inline {
+    width: 15%;
+    display: inline;
+    background-color: yellow;
+    border-color: red;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: rgba(29, 122, 41, 0.603);
+    border-color: green;
+}
